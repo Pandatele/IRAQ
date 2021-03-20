@@ -7018,7 +7018,7 @@ end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'IRAQ:Free:Add:Bots') then 
 local url,res = https.request('https://anashtick.ml/IRAQ.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.IRAQ ~= true then
+if data.Ch_Member.Matrix ~= true then
 send(msg.chat_id_,msg.id_,'≁⎠ لا يمكنك استخدام البوت\n≁⎠ عليك الاشتراك في قناة السورس\n≁⎠ لتتمكن من استخدام الاوامر \n≁⎠ CH ~ [@CGGOO]')   
 return false 
 end
