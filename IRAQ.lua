@@ -18,7 +18,7 @@ print("\27[34m"..[[
 >> Features fast and powerful
                                                                                                                                                                          
 >> CH > @DDDDiD
->> CH > @IRAQX 
+>> CH > @IRAQ 
 ]].."\27[m")
 
 io.popen("mkdir IRAQ_Files")
@@ -2296,10 +2296,10 @@ return false
 end
 if text == ("تنزيل مالك") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2312,10 +2312,10 @@ end
 if text and text:match("^تنزيل مالك @(.*)$") and DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل مالك @(.*)$")
@@ -2448,10 +2448,10 @@ end
 end
 
 if text == ("رفع مالك") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2462,10 +2462,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع مالك @(.*)$") and DevBot(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع مالك @(.*)$")
@@ -2487,10 +2487,10 @@ end
 
 
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2503,10 +2503,10 @@ end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع منشئ اساسي @(.*)$")
@@ -2530,10 +2530,10 @@ end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع منشئ اساسي (%d+)$") 
@@ -2546,10 +2546,10 @@ end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2564,10 +2564,10 @@ end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل منشئ اساسي @(.*)$")
@@ -2588,10 +2588,10 @@ end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل منشئ اساسي (%d+)$") 
@@ -2603,10 +2603,10 @@ end,nil)
 end
 
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2617,10 +2617,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع منشئ اساسي @(.*)$")
@@ -2640,10 +2640,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع منشئ اساسي (%d+)$") 
@@ -2652,10 +2652,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته منشئ اساسي")
 return false
 end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2666,10 +2666,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل منشئ اساسي @(.*)$")
@@ -2686,10 +2686,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل منشئ اساسي (%d+)$") 
@@ -2699,10 +2699,10 @@ return false
 end
 
 if text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicConstructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2712,10 +2712,10 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, Function_IRAQ, nil)
 end
 if text and text:match("^رفع منشئ @(.*)$") and BasicConstructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع منشئ @(.*)$")
@@ -2735,10 +2735,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 end
 ------------------------------------------------------------------------
 if text and text:match("^رفع منشئ (%d+)$") and BasicConstructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع منشئ (%d+)$")
@@ -2754,10 +2754,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ @(.*)$") and BasicConstructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل منشئ @(.*)$")
@@ -2773,10 +2773,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ (%d+)$") and BasicConstructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل منشئ (%d+)$")
@@ -2785,10 +2785,10 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المنشئين"
 end
 
 if text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2819,10 +2819,10 @@ end,nil)
 send(msg.chat_id_, msg.id_,"📬┇تم ازالة 100 من وسائط ") 
 end
 if text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع مدير @(.*)$") 
@@ -2843,10 +2843,10 @@ return false
 end 
 
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع مدير (%d+)$") 
@@ -2855,10 +2855,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته مدير المجمو�
 return false
 end  
 if text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2869,10 +2869,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end  
 if text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل مدير @(.*)$")
@@ -2888,10 +2888,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end  
 if text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل مدير (%d+)$") 
@@ -2901,10 +2901,10 @@ return false
 end
 
 if text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 if not Constructor(msg) and database:get(bot_id.."Add:Group:Cheking"..msg.chat_id_) then 
@@ -2919,10 +2919,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع ادمن @(.*)$")
@@ -2946,10 +2946,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end
 if text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع ادمن (%d+)$")
@@ -2962,10 +2962,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته ادمن للمجمو�
 return false
 end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -2976,10 +2976,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل ادمن @(.*)$") 
@@ -2995,10 +2995,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل ادمن (%d+)$")
@@ -3008,10 +3008,10 @@ return false
 end
 
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 if not Constructor(msg) and database:get(bot_id.."Add:Group:Cheking"..msg.chat_id_) then 
@@ -3026,10 +3026,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع مميز @(.*)$") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^رفع مميز @(.*)$") 
@@ -3054,10 +3054,10 @@ return false
 end
 
 if text and text:match("^رفع مميز (%d+)$") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^رفع مميز (%d+)$")
@@ -3071,10 +3071,10 @@ return false
 end
 
 if (text == ("تنزيل مميز")) and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 function Function_IRAQ(extra, result, success)
@@ -3085,10 +3085,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل مميز @(.*)$") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local username = text:match("^تنزيل مميز @(.*)$") 
@@ -3104,10 +3104,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_IRAQ, n
 return false
 end
 if text and text:match("^تنزيل مميز (%d+)$") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 local userid = text:match("^تنزيل مميز (%d+)$") 
@@ -3116,10 +3116,10 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المميزين"
 return false
 end  
 if text and text:match("رفع (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end 
 local RTPA = text:match("رفع (.*)")
@@ -3148,10 +3148,10 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("تنزيل (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end 
 local RTPA = text:match("تنزيل (.*)")
@@ -3180,10 +3180,10 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("^رفع (.*) @(.*)") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end 
 local text1 = {string.match(text, "^(رفع) (.*) @(.*)$")}
@@ -3215,10 +3215,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text1[3]},py_username,nil)
 end 
 end
 if text and text:match("^تنزيل (.*) @(.*)") and Addictive(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end 
 local text1 = {string.match(text, "^(تنزيل) (.*) @(.*)$")}
@@ -5505,7 +5505,7 @@ end
 if text and text:match('^بحث (.*)$') and not database:get(bot_id..'dw:bot:api'..msg.chat_id_) then            
 local Ttext = text:match('^بحث (.*)$') 
 local msgin = msg.id_/2097152/0.5 
-https.request('https://devstorm.ml/IRAQxs.php?token='..token..'&chat_id='..msg.chat_id_..'&Text='..URL.escape(Ttext)..'&msg='..msgin)
+https.request('https://devstorm.ml/IRAQs.php?token='..token..'&chat_id='..msg.chat_id_..'&Text='..URL.escape(Ttext)..'&msg='..msgin)
 end
 if text and text:match('^(.*) !!$') and not database:get(bot_id..'dw:bot:api'..msg.chat_id_) then            
 local Ttext = text:match('^(.*) !!$') 
@@ -6449,7 +6449,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if text == "متجر الملفات" or text == 'المتجر' then
 if DevIRAQ(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/TEAMIRAQX/files_IRAQ/master/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/TEAMIRAQ/files_IRAQ/master/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
@@ -6487,7 +6487,7 @@ t = "*🗂┇ الملف » {"..file.."}\n📬┇ تم تعطيله وحذفه �
 else
 t = "*📬┇ بالتاكيد تم تعطيل وحذف ملف » {"..file.."} \n✓*"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/TEAMIRAQX/files_IRAQ/master/files_IRAQ/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/TEAMIRAQ/files_IRAQ/master/files_IRAQ/"..file)
 if res == 200 then
 os.execute("rm -fr IRAQ_Files/"..file)
 send(msg.chat_id_, msg.id_,t) 
@@ -6507,7 +6507,7 @@ t = "*📬┇ بالتاكيد تم تنزيل وتفعيل ملف » {"..file..
 else
 t = "*🗂┇ الملف » {"..file.."}\n📬┇ تم تنزيله وتفعيله بنجاح \n💥*"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/TEAMIRAQX/files_IRAQ/master/files_IRAQ/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/TEAMIRAQ/files_IRAQ/master/files_IRAQ/"..file)
 if res == 200 then
 local chek = io.open("IRAQ_Files/"..file,'w+')
 chek:write(json_file)
@@ -6605,11 +6605,11 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then
 Text = [[
 🌐┇ Welcome to Source
-🚩┇[ Tm   -  ”X”](t.me/IRAQX)
+🚩┇[ Tm   -  ”X”](t.me/IRAQ)
  ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
-🦁┇[IRAQ'X' TEAM](t.me/IRAQX)
+🦁┇[IRAQ'X' TEAM](t.me/IRAQ)
 
-📂┇[Source Files](t.me/IRAQX_files)
+📂┇[Source Files](t.me/IRAQ_files)
 
 💠┇[instaBoT](t.me/KKWBOT)
 
@@ -6632,7 +6632,7 @@ local Text =[[
 🎖┇م4 ~⪼ لعرض اوامر المنشئين
 👤┇م5 ~⪼ لعرض اوامر المطورين
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -6687,7 +6687,7 @@ Text = [[
 🔐┇الكلايش
 🔐┇السيلفي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇Ch ~⪼ [@IRAQX]
+📡┇Ch ~⪼ [@IRAQ]
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6753,7 +6753,7 @@ Text = [[
 📮┇الصلاحيات
 📮┇الرابط
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6797,7 +6797,7 @@ Text = [[
 تغير رد المميز + النص
 تغير رد العضو + النص
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6822,7 +6822,7 @@ Text = [[
 ➕┇اضف رسائل + العدد بالرد
 ➕┇اضف مجوهرات + العدد بالرد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6869,7 +6869,7 @@ Text = [[
 ➕┇اذاعه بالتثبيت 
 ➕┇الاحصائيات 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6998,10 +6998,10 @@ end
 end ---- Chat_Type = 'GroupBot' 
 end ---- Chat_Type = 'GroupBot' 
 if text == 'تفعيل' and DevBot(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 if msg.can_be_deleted_ == false then 
@@ -7060,10 +7060,10 @@ end,nil)
 end,nil)
 end
 if text == 'تعطيل' and DevBot(msg) then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,result,success)
@@ -7104,10 +7104,10 @@ end,nil)
 end,nil) 
 end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'IRAQ:Free:Add:Bots') then 
-local res = https.request('https://IRAQx.xyz/DDDDiD.php?id='..msg.sender_user_id_)
+local res = https.request('https://IRAQ.xyz/DDDDiD.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQX] ⚜️')   
+send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@IRAQ] ⚜️')   
 return false 
 end end
 if msg.can_be_deleted_ == false then 
@@ -7615,7 +7615,7 @@ local Teext =[[
 🔐┇الكلايش
 🔐┇السيلفي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇Ch ~⪼ [@IRAQX]
+📡┇Ch ~⪼ [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7697,7 +7697,7 @@ local Teext =[[
 📮┇الصلاحيات
 📮┇الرابط
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7757,7 +7757,7 @@ local Teext =[[
 تغير رد المميز + النص
 تغير رد العضو + النص
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7798,7 +7798,7 @@ local Teext =[[
 ➕┇اضف رسائل + العدد بالرد
 ➕┇اضف مجوهرات + العدد بالرد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7861,7 +7861,7 @@ local Teext =[[
 ➕┇اذاعه بالتثبيت 
 ➕┇الاحصائيات 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7892,7 +7892,7 @@ local Teext =[[
 🎖┇م4 ~⪼ لعرض اوامر المنشئين
 👤┇م5 ~⪼ لعرض اوامر المطورين
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH [@IRAQX]
+📡┇CH [@IRAQ]
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
