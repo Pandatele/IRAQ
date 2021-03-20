@@ -2298,7 +2298,7 @@ if text == ("تنزيل مالك") and tonumber(msg.reply_to_message_id_) ~= 0 a
 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2314,7 +2314,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2450,7 +2450,7 @@ end
 if text == ("رفع مالك") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2464,7 +2464,7 @@ end
 if text and text:match("^رفع مالك @(.*)$") and DevBot(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2489,7 +2489,7 @@ end
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2505,7 +2505,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2532,7 +2532,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2548,7 +2548,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2566,7 +2566,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2590,7 +2590,7 @@ tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sen
 if da.status_.ID == "ChatMemberStatusCreator" then
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2605,7 +2605,7 @@ end
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2619,7 +2619,7 @@ end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2642,7 +2642,7 @@ end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2654,7 +2654,7 @@ end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2668,7 +2668,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2688,7 +2688,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2701,7 +2701,7 @@ end
 if text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicConstructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2714,7 +2714,7 @@ end
 if text and text:match("^رفع منشئ @(.*)$") and BasicConstructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2737,7 +2737,7 @@ end
 if text and text:match("^رفع منشئ (%d+)$") and BasicConstructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2756,7 +2756,7 @@ end
 if text and text:match("^تنزيل منشئ @(.*)$") and BasicConstructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2775,7 +2775,7 @@ end
 if text and text:match("^تنزيل منشئ (%d+)$") and BasicConstructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2787,7 +2787,7 @@ end
 if text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2821,7 +2821,7 @@ end
 if text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2845,7 +2845,7 @@ end
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2857,7 +2857,7 @@ end
 if text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2871,7 +2871,7 @@ end
 if text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2890,7 +2890,7 @@ end
 if text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2903,7 +2903,7 @@ end
 if text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2921,7 +2921,7 @@ end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2948,7 +2948,7 @@ end
 if text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2964,7 +2964,7 @@ end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2978,7 +2978,7 @@ end
 if text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -2997,7 +2997,7 @@ end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3010,7 +3010,7 @@ end
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3028,7 +3028,7 @@ end
 if text and text:match("^رفع مميز @(.*)$") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3056,7 +3056,7 @@ end
 if text and text:match("^رفع مميز (%d+)$") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3073,7 +3073,7 @@ end
 if (text == ("تنزيل مميز")) and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3087,7 +3087,7 @@ end
 if text and text:match("^تنزيل مميز @(.*)$") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3106,7 +3106,7 @@ end
 if text and text:match("^تنزيل مميز (%d+)$") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -3118,7 +3118,7 @@ end
 if text and text:match("رفع (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end  
@@ -3150,7 +3150,7 @@ end
 if text and text:match("تنزيل (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end  
@@ -3182,7 +3182,7 @@ end
 if text and text:match("^رفع (.*) @(.*)") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end  
@@ -3217,7 +3217,7 @@ end
 if text and text:match("^تنزيل (.*) @(.*)") and Addictive(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end  
@@ -6912,7 +6912,7 @@ end ---- Chat_Type = 'GroupBot'
 if text == 'تفعيل' and DevBot(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -6974,7 +6974,7 @@ end
 if text == 'تعطيل' and DevBot(msg) then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
@@ -7018,7 +7018,7 @@ end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'IRAQ:Free:Add:Bots') then 
 local url,res = https.request('http://kasperteams.ml/Join.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.infoo ~= true then
+if data.Ch_Member.IRAQ ~= true then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@CGGOO] ⚜️')   
 return false 
 end 
