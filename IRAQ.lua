@@ -6912,8 +6912,8 @@ end ---- Chat_Type = 'GroupBot'
 if text == 'تفعيل' and DevBot(msg) then 
 local url,res = https.request('https://anashtick.ml/IRAQ.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.IRAQ ~= true then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• ~ [@CGGOO]'⚜️')   
+if data.Ch_Member.infoo ~= true then
+send(msg.chat_id_,msg.id_,'≁⎠ لا يمكنك استخدام البوت\n≁⎠ عليك الاشتراك في قناة السورس\n≁⎠ لتتمكن من استخدام الاوامر \n≁⎠ CH ~ [@CGGOO]')   
 return false 
 end
 if msg.can_be_deleted_ == false then 
@@ -6974,8 +6974,8 @@ end
 if text == 'تعطيل' and DevBot(msg) then 
 local url,res = https.request('https://anashtick.ml/IRAQ.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.IRAQ ~= true then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• ~ [@CGGOO]'⚜️')   
+if data.Ch_Member.infoo ~= true then
+send(msg.chat_id_,msg.id_,'≁⎠ لا يمكنك استخدام البوت\n≁⎠ عليك الاشتراك في قناة السورس\n≁⎠ لتتمكن من استخدام الاوامر \n≁⎠ CH ~ [@CGGOO]')   
 return false 
 end
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,result,success)
@@ -7018,8 +7018,8 @@ end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'IRAQ:Free:Add:Bots') then 
 local url,res = https.request('https://anashtick.ml/IRAQ.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.IRAQ ~= true then
-send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• ~ [@CGGOO]'⚜️')   
+if data.Ch_Member.infoo ~= true then
+send(msg.chat_id_,msg.id_,'≁⎠ لا يمكنك استخدام البوت\n≁⎠ عليك الاشتراك في قناة السورس\n≁⎠ لتتمكن من استخدام الاوامر \n≁⎠ CH ~ [@CGGOO]')   
 return false 
 end
 if msg.can_be_deleted_ == false then 
